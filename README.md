@@ -20,6 +20,19 @@
 
 <div>
 <details>
+<summary style="font-weight: bold">Commerce MSA - 이벤트 기반 커머스 MSA 시스템</summary>
+<div>
+
+- 상품 조회부터 결제 완료까지의 주문 플로우를 여러 독립 서비스가 협력해 처리하는 이벤트 기반 MSA 시스템
+- product / inventory / order / payment 4개 서비스로 도메인 분리
+- Kafka 기반 이벤트 드리븐 서비스 간 통신 및 분산 트랜잭션 처리
+- 재고 예약 → 결제 승인 → 재고 확정의 주문 흐름 직접 구현하며 MSA 패턴 체득
+- [Repository](https://github.com/wocks1123/commerce-msa)
+
+</div>
+</details>
+
+<details>
 <summary style="font-weight: bold">Arcade Market - 가상 커머스 플랫폼</summary>
 <div>
 
